@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART - BUYUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo"><a href="shopping.html">BUYUB</a></div>
+        <div class="links">
+            <a href="shopping.html">SHOP</a>
+        </div>
+    </nav>
+
+    <main class="cart-box">
+        <h1>SELECTED ITEMS</h1>
+        <div id="list"></div>
+        <div class="total-box">
+            <div class="line"><span>SUBTOTAL</span><span id="sub">$0.00</span></div>
+            <div class="line"><span>GST (18%)</span><span id="gst">$0.00</span></div>
+            <div class="line total-line"><span>TOTAL</span><span id="total">$0.00</span></div>
+            <button class="clear-btn" onclick="resetCart()">RESET CART</button>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUYUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo"><a href="#s1">BUYUB</a></div>
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+        <div class="links">
+            <a href="cart.html">CART (<span id="count">0</span>)</a>
+            <label for="menu-toggle" class="menu-btn">MENU</label>
+        </div>
+        <div class="drop">
+            <a href="#s1" class="item">01 INTRO</a>
+            <a href="#s2" class="item">02 TERRA COTTA</a>
+            <a href="#s3" class="item">03 CERAMIC</a>
+            <a href="#s4" class="item">04 CONCRETE</a>
+            <a href="#s5" class="item">05 BASALT</a>
+            <a href="#s6" class="item">06 MONOLITH</a>
+            <a href="#s7" class="item">07 PORCELAIN</a>
+            <a href="#s8" class="item">08 SANDSTONE</a>
+            <a href="#s9" class="item">09 PREMIUM</a>
+            <a href="#s10" class="item">10 MANIFESTO</a>
+            <a href="cart.html" class="item">VIEW CART</a>
+        </div>
+    </nav>
+
+    <main class="main">
+        <section id="s1" class="screen hero">
+            <p class="hero-sub">Shaped by Hand.</p>
+            <h1 class="hero-main">Rooted in Earth.</h1>
+        </section>
+
+        <section id="s2" class="screen">
+            <div class="grid">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/1200x/1e/b0/1c/1eb01ca70749fa7e6494439332cafbc0.jpg" alt="WHITE PASTEL">
+                    </div>
+                    <div class="info">
+                        <h2>WHITE PASTEL</h2>
+                        <p>Raw unglazed clay for natural aeration.</p>
+                        <span class="price">$45</span>
+                        <button class="btn" onclick="add('p1', 'WHITE PASTEL', 45)">ADD</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/1200x/6f/ea/43/6fea43359fbce69ddcfe3d056524e0b3.jpg" alt="CARCOAL BRONT">
+                    </div>
+                    <div class="info">
+                        <h2>CARCOAL BRONT</h2>
+                        <p>Short profile geometric composition.</p>
+                        <span class="price">$60</span>
+                        <button class="btn" onclick="add('p2', 'CARCOAL BROT', 60)">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s3" class="screen">
+            <div class="grid">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/1200x/95/72/c3/9572c3621a24cc3b64f5f7c24c28c6cd.jpg" alt="CERAMIC BROWN">
+                    </div>
+                    <div class="info">
+                        <h2>CERAMIC BROWN</h2>
+                        <p>Satin dark glaze reflection properties.</p>
+                        <span class="price">$85</span>
+                        <button class="btn" onclick="add('p3', 'CERAMIC BROWN', 85)">ADD</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/1200x/a9/e5/49/a9e549f4521c5e0cc71158e4bbfced62.jpg" alt="COFFEE BLEND">
+                    </div>
+                    <div class="info">
+                        <h2>CERAMIC BROWN</h2>
+                        <p>Pure stark white kiln extraction.</p>
+                        <span class="price">$90</span>
+                        <button class="btn" onclick="add('p4', 'CERAMIC BROWN', 90)">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s4" class="screen">
+            <div class="grid">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/736x/34/fa/49/34fa49bbd1c4b461666512edff6328b0.jpg" alt="BRUTAL CONCRETE">
+                    </div>
+                    <div class="info">
+                        <h2>BRUTAL CONCRETE</h2>
+                        <p>Aggregate texture block format.</p>
+                        <span class="price">$120</span>
+                        <button class="btn" onclick="add('p5', 'BRUTAL CONCRETE', 120)">ADD</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/1200x/a0/9f/3b/a09f3b0cb0c4082dcdd87728364d7223.jpg" alt="CIRCULAR PATRON">
+                    </div>
+                    <div class="info">
+                        <h2>CIRCULAR PATRON</h2>
+                        <p>Strict angular alignment circle definition.</p>
+                        <span class="price">$110</span>
+                        <button class="btn" onclick="add('p6', 'CIRCULAR PATRON', 110)">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s5" class="screen">
+            <div class="grid">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/736x/3f/7c/04/3f7c0441a2bc70a8ae5e67e024940339.jpg" alt="BASALT SOLID">
+                    </div>
+                    <div class="info">
+                        <h2>BASALT SOLID</h2>
+                        <p>Volcanic core element heavy container.</p>
+                        <span class="price">$175</span>
+                        <button class="btn" onclick="add('p7', 'BASALT SOLID', 175)">ADD</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/736x/c0/db/1f/c0db1f672fdd47fff985f0e3c9e2e745.jpg" alt="PLATO-B">
+                    </div>
+                    <div class="info">
+                        <h2>PLATO-B</h2>
+                        <p>Chiseled profile architecture layout.</p>
+                        <span class="price">$190</span>
+                        <button class="btn" onclick="add('p8', 'PLATO-B', 190)">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s6" class="screen">
+            <div class="grid">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/1200x/95/af/1d/95af1d0510a0698a945c82c2ec4e4706.jpg" alt="THE MONOLITH">
+                    </div>
+                    <div class="info">
+                        <h2>THE MONOLITH</h2>
+                        <p>Single block casting architectural presence.</p>
+                        <span class="price">$350</span>
+                        <button class="btn" onclick="add('p9', 'THE MONOLITH', 350)">ADD</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/736x/d5/11/08/d51108873a79c57958d5cdf9c0b30a2d.jpg" alt="ECLIPSE BOWL">
+                    </div>
+                    <div class="info">
+                        <h2>ECLIPSE BOWL</h2>
+                        <p>Low profile wide aperture structure.</p>
+                        <span class="price">$280</span>
+                        <button class="btn" onclick="add('p10', 'ECLIPSE BOWL', 280)">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s7" class="screen">
+            <div class="grid">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/736x/28/29/af/2829afc41e358fa976fca21ae4184c50.jpg" alt="FINE PORCELAIN">
+                    </div>
+                    <div class="info">
+                        <h2>FINE PORCELAIN</h2>
+                        <p>Refined silica high structural density.</p>
+                        <span class="price">$210</span>
+                        <button class="btn" onclick="add('p11', 'FINE PORCELAIN', 210)">ADD</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/736x/29/62/90/2962905f99908861cd32fdf6c778803f.jpg" alt="MATTE CHALK">
+                    </div>
+                    <div class="info">
+                        <h2>MATTE CHALK</h2>
+                        <p>Absorbent texture surface finish design.</p>
+                        <span class="price">$230</span>
+                        <button class="btn" onclick="add('p12', 'MATTE CHALK', 230)">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s8" class="screen">
+            <div class="grid">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/736x/fd/14/b3/fd14b354045978ea7ffeeb6ec4f7ace9.jpg" alt="RAW SANDSTONE">
+                    </div>
+                    <div class="info">
+                        <h2>RAW SANDSTONE</h2>
+                        <p>Sedimentary composition tactile validation.</p>
+                        <span class="price">$140</span>
+                        <button class="btn" onclick="add('p13', 'RAW SANDSTONE', 140)">ADD</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/1200x/d0/e3/8a/d0e38ac5e1a0c0cf5d7c80d053599e0a.jpg" alt="GRAIN COARSE">
+                    </div>
+                    <div class="info">
+                        <h2>GRAIN COARSE</h2>
+                        <p>High exposure quartz inclusion structure.</p>
+                        <span class="price">$155</span>
+                        <button class="btn" onclick="add('p14', 'GRAIN COARSE', 155)">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s9" class="screen">
+            <div class="grid">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/1200x/12/28/74/122874f5ab896a7f689d285a5804c6fa.jpg" alt="GIANT PLANTER">
+                    </div>
+                    <div class="info">
+                        <h2>GIANT PLANTER</h2>
+                        <p>Maximum scale containment vessel floor alignment.</p>
+                        <span class="price">$500</span>
+                        <button class="btn" onclick="add('p15', 'GIANT PLANTER', 500)">ADD</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/1200x/04/34/76/0434769a97101531ddc66e8112e4ba47.jpg" alt="BOLIB POT">
+                    </div>
+                    <div class="info">
+                        <h2>BOLIB POT</h2>
+                        <p>Highly contrast designed pot.</p>
+                        <span class="price">$450</span>
+                        <button class="btn" onclick="add('p16', 'BOLIB POT', 450)">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s10" class="screen text-screen">
+            <h2>BUYUB ESSENCE</h2>
+            <p>ZERO ANGLE CURVATURE. ZERO EXTRA DECORATION. STRUCTURAL VESSELS FOR REJECTING ORDINARY DESIGN PRINCIPLES.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
